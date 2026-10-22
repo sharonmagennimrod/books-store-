@@ -3,8 +3,80 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Bookstore | About</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            background: #f3efe9;
+            color: #1f1f1f;
+        }
+        header {
+            background: #2f3d2f;
+            color: white;
+            padding: 18px 40px;
+        }
+        nav {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+        .brand {
+            font-size: 1.8rem;
+            font-weight: bold;
+        }
+        .nav-links {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+            margin: 0;
+            padding: 0;
+        }
+        .nav-links a {
+            color: white;
+            text-decoration: none;
+            font-weight: 600;
+        }
+        main {
+            max-width: 900px;
+            margin: 0 auto;
+            padding: 40px 20px;
+        }
+        .about-box {
+            background: white;
+            border-radius: 14px;
+            padding: 30px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+        }
+        h1 {
+            font-size: 2.5rem;
+            margin-bottom: 20px;
+        }
+        p {
+            line-height: 1.7;
+        }
+    </style>
 </head>
-<body><H1>welcome to the greatest bookstore</H1>   
+<body>
+    <header>
+        <nav>
+            <div class="brand">The Book Nook</div>
+            <ul class="nav-links">
+                <li><a href="home.html">Home</a></li>
+                <li><a href="books.html">Books</a></li>
+                <li><a href="about.html">About</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="about-box">
+            <h1>About Our Bookstore</h1>
+            <p>The Book Nook is a welcoming place for readers who value stories, knowledge, and inspiration. We believe every book has the power to spark imagination and create meaningful connections.</p>
+            <p>From modern bestsellers to beloved classics, we curate a collection designed to delight curious minds and lifelong learners. Our mission is to make reading accessible, enjoyable, and rewarding for everyone.</p>
+            <p>Whether you are looking for your next adventure, a thoughtful gift, or a trusted favorite, we are here to help you find the perfect read.</p>
+        </div>
+    </main>
 </body>
 </html>
