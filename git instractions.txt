@@ -1,0 +1,8 @@
+new branch
+git checkout -b <branch-name>
+develop, add, commit 
+git pull
+git merge origin/master
+git push origin <branch-name>
+
+
